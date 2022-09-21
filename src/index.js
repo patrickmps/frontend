@@ -6,7 +6,7 @@ import Header from './pages/Header';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header title="Aqui crl"/>
+    <Header title="My User App"/>
     <App />
   </React.StrictMode>
 );
