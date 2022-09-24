@@ -1,0 +1,71 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#profile-container{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+#profile-container h1{
+    margin: 30px 0;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1C1D21;
+    justify-content: start;
+}
+
+#profile-container form{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+#profile-container form strong{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#profile-container form input{
+    width: 100%;
+    font-size: 16px;
+    background: white;
+    border: 2px solid #bb9bb0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.button{
+    height: 50px;
+    width: 28vw;
+    border-radius: 10px;
+    border: 2px solid #4C1454;
+    background: none;
+    margin-top: 10px;
+    color: #4C1454;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.button:hover{
+    background: #4C1454;
+    color: #EAE4F2;
+}
+
+.actions{
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0px;
+}
